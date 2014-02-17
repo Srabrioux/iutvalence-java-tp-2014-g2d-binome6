@@ -4,5 +4,8 @@
  */
 public class RushHour 
 {
-	
+	public void jouer()
+	{
+		
+	}
 }
