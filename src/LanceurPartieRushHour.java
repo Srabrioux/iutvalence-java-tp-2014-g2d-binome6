@@ -1,16 +1,13 @@
 /**
  * @author rabrious
- * Lance la partie
+ * Creation et démarrage d'une partie de Rush Hour.
  */
-public class lanceurPartieRushHour 
+public class LanceurPartieRushHour
 {
-
 	public static void main(String[] a) 
 	{
-		System.out.println("Je vais créer une nouvelle partie.");
-		RushHour rushHourPartie = new RushHour();
-		System.out.println("L'objet RushHourPartie a été créé.");
-		rushHourPartie.jouer();
-		System.out.println("La partie est finis.");
+		RushHour partieDeRushHour = new RushHour();
+		partieDeRushHour.constructeur();
+		partieDeRushHour.jouer();
 	}
 }
