@@ -1,13 +1,21 @@
+// TODO déplacer la classe dans un paquetage (j'avais donné des consignes)
+
+// TODO corriger les problèmes d'accents
 /**
+ * Creation et d�marrage d'une partie de Rush Hour.
  * @author rabrious
- * Creation et d�marrage d'une partie de Rush Hour.
+ * 
  */
 public class LanceurPartieRushHour
 {
+	// TODO écrire un commentaire
 	public static void main(String[] a) 
 	{
 		RushHour partieDeRushHour = new RushHour();
+
+		// TODO ???
 		partieDeRushHour.constructeur();
+		
 		partieDeRushHour.jouer();
 	}
 }
