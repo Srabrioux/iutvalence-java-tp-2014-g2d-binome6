@@ -6,22 +6,22 @@ package fr.iutvalence.java.tp.rushhour;
  */
 public class RushHour
 {
-	// TODO écrire un constructeur (ce n'en est pas un)
 	
+	// TODO écrire un constructeur (ce n'en est pas un)
 	// TODO écrire un commentaire plus précis
 	/**
-	 * création du plateau de jeu et des objets de jeu.
+	 * Créer le plateau de jeu, la voiture à faire sortir et les voitures obstacles.
 	 */
-	public void constructeur()
+	public RushHour()
 	{
 		plateau plateauDePartie = new plateau();
 		voitureS voitureASortir = new voitureS();
 		voitureJ voitureDuJeux = new voitureJ();
 	}
 	
-	// TODO écrire un commentaire plus précis
+	// TODO (done) écrire un commentaire plus précis
 	/**
-	 * Démarrage de la partie de Rush Hour.
+	 * Mise en route de la partie de Rush Hour.
 	 */
 	public void jouer()
 	{

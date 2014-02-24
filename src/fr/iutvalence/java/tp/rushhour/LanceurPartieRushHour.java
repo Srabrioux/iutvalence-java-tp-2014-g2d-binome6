@@ -8,14 +8,14 @@ package fr.iutvalence.java.tp.rushhour;
  */
 public class LanceurPartieRushHour
 {
-	// TODO écrire un commentaire
+	/**
+	 * 
+	 * @param a
+	 */
 	public static void main(String[] a) 
 	{
 		RushHour partieDeRushHour = new RushHour();
 
-		// TODO ???
-		partieDeRushHour.constructeur();
-		
 		partieDeRushHour.jouer();
 	}
 }

@@ -7,5 +7,5 @@ package fr.iutvalence.java.tp.rushhour;
 // TODO respecter les conventions d'écriture
 public class plateau
 {
-
+	
 }

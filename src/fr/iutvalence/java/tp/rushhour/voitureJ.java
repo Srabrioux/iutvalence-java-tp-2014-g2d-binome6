@@ -7,5 +7,8 @@ package fr.iutvalence.java.tp.rushhour;
 // TODO respecter les conventions d'écriture
 public class voitureJ
 {
-
+	public static int pX;
+	public static int pY;
+	public static int styleVehicule;
+	public static int sens;
 }
