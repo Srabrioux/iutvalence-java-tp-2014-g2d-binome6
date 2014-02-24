@@ -1,4 +1,5 @@
-// TODO déplacer la classe dans un paquetage (j'avais donné des consignes)
+package fr.iutvalence.java.tp.rushhour;
+// TODO d�placer la classe dans un paquetage (j'avais donn� des consignes)
 /**
  * Description d'une partie de Rush Hour
  * @author rabrious
@@ -6,9 +7,9 @@
  */
 public class RushHour
 {
-	// TODO écrire un constructeur (ce n'en est pas un)
+	// TODO �crire un constructeur (ce n'en est pas un)
 	
-	// TODO écrire un commentaire plus précis
+	// TODO �crire un commentaire plus pr�cis
 	/**
 	 * creation du plateau de jeux et des objet de jeux.
 	 */
@@ -19,8 +20,8 @@ public class RushHour
 		voitureJ voitureDuJeux = new voitureJ();
 	}
 	
-	// TODO corriger les problèmes d'accents
-	// TODO écrire un commentaire plus précis
+	// TODO corriger les probl�mes d'accents
+	// TODO �crire un commentaire plus pr�cis
 	/**
 	 * D�marrage de la partie de Rush Hour.
 	 */
