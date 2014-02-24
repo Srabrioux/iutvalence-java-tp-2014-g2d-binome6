@@ -5,18 +5,41 @@ package fr.iutvalence.java.tp.rushhour;
  *
  */
 // TODO respecter les conventions d'écriture
-public class voitureS
+public class VoitureS
 {
 	public int pX;
 	public int pY;
 	public int styleVehicule;
 	public int sens;
+	public boolean estSortie;
 	
-	public voitureS()
+	public VoitureS()
 	{
 		this.pX = 2;
 		this.pY = 5;
 		this.styleVehicule = 1;
 		this.sens = 2;
+		this.estSortie = false;
+	}
+	
+	public void avancer()
+	{
+		if(this.pX == 6)
+		{
+			this.pX = this.pX+1;
+			this.estSortie = true;
+		}
+		else
+		{
+			this.pX = this.pX+1;
+		}
+	}
+	
+	public void reculer()
+	{
+		if(this.pX != 2)
+		{
+			this.pX = this.pX-1;
+		}
 	}
 }
