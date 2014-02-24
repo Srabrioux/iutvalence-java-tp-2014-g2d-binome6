@@ -12,7 +12,7 @@ public class VoitureJ
 	public static int styleVehicule;
 	public static int sens;
 	
-	public voitureJ(int a, int b, int c, int d)
+	public VoitureJ(int a, int b, int c, int d)
 	{
 		this.pX = a;
 		this.pY = b;

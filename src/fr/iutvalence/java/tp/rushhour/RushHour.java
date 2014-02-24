@@ -15,8 +15,8 @@ public class RushHour
 	public RushHour()
 	{
 		plateau plateauDePartie = new plateau();
-		voitureS voitureASortir = new voitureS();
-		voitureJ voitureDuJeux = new voitureJ();
+		VoitureS voitureASortir = new VoitureS();
+		VoitureJ voitureDuJeux = new VoitureJ(0, 0, 0, 0);
 	}
 	
 	// TODO (done) écrire un commentaire plus précis
