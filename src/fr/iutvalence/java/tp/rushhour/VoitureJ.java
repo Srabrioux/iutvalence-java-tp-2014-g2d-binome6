@@ -4,13 +4,13 @@ package fr.iutvalence.java.tp.rushhour;
  * @author rabrious
  *
  */
-// TODO respecter les conventions d'écriture
+// TODO (donne) respecter les conventions d'écriture
 public class VoitureJ
 {
-	public static int pX;
-	public static int pY;
-	public static int styleVehicule;
-	public static int sens;
+	public int pX;
+	public int pY;
+	public int styleVehicule;
+	public int sens;
 	
 	public VoitureJ(int a, int b, int c, int d)
 	{
@@ -27,6 +27,6 @@ public class VoitureJ
 	
 	public void reculer()
 	{
-		
+
 	}
 }

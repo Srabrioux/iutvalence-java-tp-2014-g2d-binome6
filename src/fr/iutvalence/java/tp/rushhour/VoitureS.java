@@ -4,7 +4,7 @@ package fr.iutvalence.java.tp.rushhour;
  * @author rabrious
  *
  */
-// TODO respecter les conventions d'écriture
+// TODO (done) respecter les conventions d'écriture
 public class VoitureS
 {
 	public int pX;

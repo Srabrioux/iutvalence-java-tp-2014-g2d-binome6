@@ -15,7 +15,6 @@ public class LanceurPartieRushHour
 	public static void main(String[] a) 
 	{
 		RushHour partieDeRushHour = new RushHour();
-
 		partieDeRushHour.jouer();
 	}
 }
