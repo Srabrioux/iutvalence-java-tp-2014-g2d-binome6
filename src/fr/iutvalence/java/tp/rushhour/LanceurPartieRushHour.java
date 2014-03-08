@@ -8,6 +8,7 @@ package fr.iutvalence.java.tp.rushhour;
  */
 public class LanceurPartieRushHour
 {
+	// TODO écrire le commentaire
 	/**
 	 * 
 	 * @param a

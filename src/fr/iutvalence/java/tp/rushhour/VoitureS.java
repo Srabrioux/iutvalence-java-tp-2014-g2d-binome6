@@ -4,15 +4,29 @@ package fr.iutvalence.java.tp.rushhour;
  * @author rabrious
  *
  */
-// TODO (done) respecter les conventions d'écriture
 public class VoitureS
 {
+	// TODO l'attribut ne devrait pas être visible
+	// TODO écrire le commentaire
 	public int pX;
+
+	// TODO l'attribut ne devrait pas être visible
+	// TODO écrire le commentaire
 	public int pY;
+	
+	// TODO l'attribut ne devrait pas être visible
+	// TODO écrire le commentaire
 	public int styleVehicule;
+	
+	// TODO l'attribut ne devrait pas être visible
+	// TODO écrire le commentaire
 	public int sens;
+	
+	// TODO l'attribut ne devrait pas être visible
+	// TODO écrire le commentaire
 	public boolean estSortie;
 	
+	// TODO écrire le commentaire
 	public VoitureS()
 	{
 		this.pX = 2;
@@ -22,6 +36,7 @@ public class VoitureS
 		this.estSortie = false;
 	}
 	
+	// TODO écrire le commentaire
 	public void avancer()
 	{
 		if(this.pX == 6)
@@ -35,6 +50,7 @@ public class VoitureS
 		}
 	}
 	
+	// TODO écrire le commentaire
 	public void reculer()
 	{
 		if(this.pX != 2)
