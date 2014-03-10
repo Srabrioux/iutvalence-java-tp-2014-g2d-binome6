@@ -52,6 +52,7 @@ public class VoitureS
 	private boolean estSortie;
 	
 	// TODO (done) écrire le commentaire
+	// TODO Afficher la voiture sur le plateau de jeu.
 	/**
 	 * Constructeur de la voiture a faire sortir.
 	 */

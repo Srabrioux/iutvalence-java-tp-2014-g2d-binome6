@@ -4,7 +4,7 @@ package fr.iutvalence.java.tp.rushhour;
  * @author rabrious
  *
  */
-// TODO respecter les conventions d'écriture
+// TODO (done) respecter les conventions d'écriture
 public class Plateau
 {
 	/**
@@ -30,7 +30,7 @@ public class Plateau
 	/**
 	 * Tableau indiquant se que contient chaque case de la ligne 5 de la grille de jeu.
 	 */
-	public int plateauJeuxLigneCinq [] = {0,3,3,1,1,1,1,2,0};
+	public int plateauJeuxLigneCinq [] = {0,1,1,1,1,1,1,2,0};
 	
 	/**
 	 * Tableau indiquant se que contient chaque case de la ligne 6 de la grille de jeu.

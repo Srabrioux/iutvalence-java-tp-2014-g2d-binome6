@@ -12,7 +12,7 @@ public class RushHour
 	public RushHour()
 	{
 		Plateau plateauDePartie = new Plateau();
-		//VoitureS voitureASortir = new VoitureS();
+		VoitureS voitureASortir = new VoitureS();
 		//VoitureJ voitureDuJeux = new VoitureJ(0, 0, 0, 0, 0);
 	}
 	
