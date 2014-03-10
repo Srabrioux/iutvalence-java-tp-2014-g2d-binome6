@@ -2,15 +2,15 @@ package fr.iutvalence.java.tp.rushhour;
 
 
 /**
- * Creation et démarrage d'une partie de Rush Hour.
+ * Lanceur de la partie de Rush Hour.
  * @author rabrious
  * 
  */
 public class LanceurPartieRushHour
 {
-	// TODO écrire le commentaire
+	// TODO (done) écrire le commentaire
 	/**
-	 * 
+	 * Création et démarrage de la partie de Rush Hour.
 	 * @param a
 	 */
 	public static void main(String[] a) 

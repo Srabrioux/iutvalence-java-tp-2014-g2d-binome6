@@ -11,9 +11,9 @@ public class RushHour
 	 */
 	public RushHour()
 	{
-		plateau plateauDePartie = new plateau();
-		VoitureS voitureASortir = new VoitureS();
-		VoitureJ voitureDuJeux = new VoitureJ(0, 0, 0, 0);
+		Plateau plateauDePartie = new Plateau();
+		//VoitureS voitureASortir = new VoitureS();
+		//VoitureJ voitureDuJeux = new VoitureJ(0, 0, 0, 0, 0);
 	}
 	
 	// TODO Tester la creation des objets voitures
