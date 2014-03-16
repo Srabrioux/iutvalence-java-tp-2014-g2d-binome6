@@ -8,7 +8,7 @@ package fr.iutvalence.java.tp.rushhour;
  */
 public class LanceurPartieRushHour
 {
-	// TODO (done) écrire le commentaire
+	// TODO compléter le commentaire
 	/**
 	 * Création et démarrage de la partie de Rush Hour.
 	 * @param a

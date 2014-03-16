@@ -4,51 +4,63 @@ package fr.iutvalence.java.tp.rushhour;
  * @author rabrious
  *
  */
-// TODO (done) respecter les conventions d'écriture
 public class Plateau
 {
+	// TODO remplacer les tableaux à 1 dimensions par 1 seul tableau à 2 dimensions !
+	// TODO l'attribut ne devrait pas être visible
 	/**
 	 * Tableau indiquant se que contient chaque case de la ligne 1 de la grille de jeu.
 	 */
 	public int plateauJeuxLigneUn [] = {0,0,0,0,0,0,0,0,0};
 	
+	
+	// TODO l'attribut ne devrait pas être visible
 	/**
 	 * Tableau indiquant se que contient chaque case de la ligne 2 de la grille de jeu.
 	 */
 	public int plateauJeuxLigneDeux [] = {0,1,1,1,1,1,1,0,0};
 	
+	
+	// TODO l'attribut ne devrait pas être visible
 	/**
 	 * Tableau indiquant se que contient chaque case de la ligne 3 de la grille de jeu.
 	 */
 	public int plateauJeuxLigneTrois [] = {0,1,1,1,1,1,1,0,0};
 	
+	// TODO l'attribut ne devrait pas être visible
 	/**
 	 * Tableau indiquant se que contient chaque case de la ligne 4 de la grille de jeu.
 	 */
 	public int plateauJeuxLigneQuatre [] = {0,1,1,1,1,1,1,0,0};
 	
+	// TODO l'attribut ne devrait pas être visible
 	/**
 	 * Tableau indiquant se que contient chaque case de la ligne 5 de la grille de jeu.
 	 */
 	public int plateauJeuxLigneCinq [] = {0,1,1,1,1,1,1,2,0};
 	
+	// TODO l'attribut ne devrait pas être visible
 	/**
 	 * Tableau indiquant se que contient chaque case de la ligne 6 de la grille de jeu.
 	 */
 	public int plateauJeuxLigneSix [] = {0,1,1,1,1,1,1,0,0};
 	
+	// TODO l'attribut ne devrait pas être visible
 	/**
 	 * Tableau indiquant se que contient chaque case de la ligne 7 de la grille de jeu.
 	 */
 	public int plateauJeuxLigneSept [] = {0,1,1,1,1,1,1,0,0};
 	
+	// TODO l'attribut ne devrait pas être visible
 	/**
 	 * Tableau indiquant se que contient chaque case de la ligne 8 de la grille de jeu.
 	 */
 	public int plateauJeuxLigneHuit [] = {0,0,0,0,0,0,0,0,0};
-	
+
+	// TODO écrire un commentaire
 	public char plateauJeuxLigneCourante [] = {'e','e','e','e','e','e','e','e','e'};
 	
+	// TODO écrire un commentaire
 	public Plateau()
 	{
 		System.out.println("  _   _   _   _   _   _   _   _   _  ");
