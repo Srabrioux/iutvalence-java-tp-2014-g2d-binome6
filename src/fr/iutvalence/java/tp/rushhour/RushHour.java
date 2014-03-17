@@ -6,6 +6,8 @@ package fr.iutvalence.java.tp.rushhour;
  */
 public class RushHour
 {
+	private int nombreVoitureDansLaPertie;
+	
 	/**
 	 * Créer le plateau de jeu, la voiture à faire sortir et les voitures obstacles.
 	 */
@@ -14,7 +16,9 @@ public class RushHour
 		// TODO ne pas confondre variables locales et attributs
 		Plateau plateauDePartie = new Plateau();
 		VoitureS voitureASortir = new VoitureS();
-		//VoitureJ voitureDuJeux = new VoitureJ(0, 0, 0, 0, 0);
+		nombreVoitureDansLaPertie++;
+		//VoitureJ voitureDeJeu1 = new VoitureJ();
+		//nombreVoitureDansLaPertie++;
 	}
 	
 	/**

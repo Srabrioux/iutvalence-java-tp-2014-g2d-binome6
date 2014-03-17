@@ -6,22 +6,16 @@ package fr.iutvalence.java.tp.rushhour;
  */
 public class VoitureJ
 {
-	// TODO (done) l'attribut ne devrait pas être visible
-	// TODO (done) écrire le commentaire
 	/**
 	 * Coordonée X de l'arriere du véhicule sur la grille de jeu.
 	 */
 	private int pX;
 
-	// TODO (done) l'attribut ne devrait pas être visible
-	// TODO (done) écrire le commentaire
 	/**
 	 * Coordonées Y de l'arriere du véhicule sur la grille de jeu.
 	 */
 	private int pY;
 	
-	// TODO (done) l'attribut ne devrait pas être visible
-	// TODO (done) écrire le commentaire
 	/**
 	 * Taille du véhicule (en nombre de case : 2 ou 3)
 	 */
@@ -32,8 +26,6 @@ public class VoitureJ
 	 */
 	private int couleurVehicule;
 	
-	// TODO (done) l'attribut ne devrait pas être visible
-	// TODO (done) écrire le commentaire
 	/**
 	 * Orientation du véhicule sur la grille de jeu.
 	 * 1 : vers le haut
@@ -43,8 +35,6 @@ public class VoitureJ
 	 */
 	private int sens;
 
-	// TODO (done) écrire le commentaire
-	// TODO (done)renommer les paramètres
 	/**
 	 * Création d'un objet Voiture de jeu.
 	 * @param positionX
@@ -62,7 +52,6 @@ public class VoitureJ
 		this.sens = sensDuVéhicule;
 	}
 	
-	// TODO (done) écrire le commentaire
 	/**
 	 * Méthode faisant avancer le véhicule.
 	 */
@@ -71,7 +60,6 @@ public class VoitureJ
 		
 	}
 	
-	// TODO (done) écrire le commentaire
 	/**
 	 * Méthode faisant reculer le véhicule.
 	 */
