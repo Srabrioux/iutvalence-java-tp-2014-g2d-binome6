@@ -67,4 +67,14 @@ public class VoitureJ
 	{
 
 	}
+	
+	public int getPX()
+	{
+		return pX;
+	}
+	
+	public int getPY()
+	{
+		return pY;
+	}
 }

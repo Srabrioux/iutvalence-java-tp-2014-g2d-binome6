@@ -16,7 +16,8 @@ public class RushHour
 		// TODO ne pas confondre variables locales et attributs
 		Plateau plateauDePartie = new Plateau();
 		VoitureS voitureASortir = new VoitureS();
-		nombreVoitureDansLaPertie++;
+		plateauDePartie.placerVoitureASortir(voitureASortir);
+		plateauDePartie.miseAJourPlateau();
 		//VoitureJ voitureDeJeu1 = new VoitureJ();
 		//nombreVoitureDansLaPertie++;
 	}

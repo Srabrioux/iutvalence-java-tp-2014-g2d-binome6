@@ -41,14 +41,14 @@ public class VoitureS
 	 */
 	private boolean estSortie;
 	
-	// TODO Afficher la voiture sur le plateau de jeu.
+	// TODO (done) Afficher la voiture sur le plateau de jeu.
 	/**
 	 * Constructeur de la voiture a faire sortir.
 	 */
 	public VoitureS()
 	{
-		this.pX = 2;
-		this.pY = 5;
+		this.pX = 1;
+		this.pY = 4;
 		this.longueurVehicule = 2;
 		this.couleurVehicule = 1;
 		this.sens = 2;
@@ -80,5 +80,25 @@ public class VoitureS
 		{
 			this.pX = this.pX-1;
 		}
+	}
+	
+	public int getPX()
+	{
+		return pX;
+	}
+	
+	public int getPY()
+	{
+		return pY;
+	}
+	
+	public int getLongueurVehicule()
+	{
+		return longueurVehicule;
+	}
+	
+	public int getSens()
+	{
+		return sens;
 	}
 }
