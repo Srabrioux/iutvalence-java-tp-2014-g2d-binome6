@@ -1,11 +1,10 @@
 package fr.iutvalence.java.tp.rushhour;
-
 /**
- * Objet voiture à faire sortir du plateau.
+ * Objet voiture : obstacle à bouger sur le plateau.
  * @author rabrious
  *
  */
-public class VoitureS
+public class Voiture
 {
 	/**
 	 * Coordonée X de l'arriere du véhicule sur la grille de jeu.
@@ -15,12 +14,7 @@ public class VoitureS
 	/**
 	 * Coordonées Y de l'arriere du véhicule sur la grille de jeu.
 	 */
-	private int pY;
-	
-	/**
-	 * Taille du véhicule (en nombre de case : 2 ou 3)
-	 */
-	private int longueurVehicule;
+	private static int pY;
 	
 	/**
 	 * Couleur du véhicule (couleur 1, 2 ou 3)
@@ -35,21 +29,29 @@ public class VoitureS
 	 * 4 : vers la gauche
 	 */
 	private int sens;
-	
-	/**
-	 * Valeur booléene indiquant si la voiture est sortie ou non.
-	 */
+
 	private boolean estSortie;
-	
-	// TODO (done) Afficher la voiture sur le plateau de jeu.
+
 	/**
-	 * Constructeur de la voiture a faire sortir.
+	 * Création d'un objet Voiture de jeu.
+	 * @param positionX
+	 * @param positionY
+	 * @param longueurDuVehicule
+	 * @param couleurDuVehicule
+	 * @param sensDuVéhicule
 	 */
-	public VoitureS()
+	public Voiture(int positionX, int positionY,int couleurDuVehicule, int sensDuVéhicule)
+	{
+		this.pX = positionX;
+		this.pY = positionY;
+		this.couleurVehicule = couleurDuVehicule;
+		this.sens = sensDuVéhicule;
+	}
+	
+	public Voiture()
 	{
 		this.pX = 1;
 		this.pY = 4;
-		this.longueurVehicule = 2;
 		this.couleurVehicule = 1;
 		this.sens = 2;
 		this.estSortie = false;
@@ -57,6 +59,30 @@ public class VoitureS
 	
 	/**
 	 * Méthode faisant avancer le véhicule.
+	 */
+	
+	public int getPX()
+	{
+		return pX;
+	}
+	
+	public static int getPY()
+	{
+		return pY;
+	}
+	
+	public int getSens()
+	{
+		return sens;
+	}
+	
+	public boolean getEstSortie() 
+	{
+		return this.estSortie;
+	}
+	
+	/**
+	 * Méthode faisant avancer la voiture à sortir.
 	 */
 	public void avancer()
 	{
@@ -72,7 +98,7 @@ public class VoitureS
 	}
 	
 	/**
-	 * Méthode faisant reculer le vehicule.
+	 * Méthode faisant reculer la voiture à sortir.
 	 */
 	public void reculer()
 	{
@@ -80,25 +106,5 @@ public class VoitureS
 		{
 			this.pX = this.pX-1;
 		}
-	}
-	
-	public int getPX()
-	{
-		return pX;
-	}
-	
-	public int getPY()
-	{
-		return pY;
-	}
-	
-	public int getLongueurVehicule()
-	{
-		return longueurVehicule;
-	}
-	
-	public int getSens()
-	{
-		return sens;
 	}
 }

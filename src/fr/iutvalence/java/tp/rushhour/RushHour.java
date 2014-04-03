@@ -6,20 +6,73 @@ package fr.iutvalence.java.tp.rushhour;
  */
 public class RushHour
 {
-	private int nombreVoitureDansLaPertie;
+	/**
+	 * Déclaration du nombre de voiture dans la partie.
+	 */
+	private int nombreDeVoitures;
+
+	/**
+	 * Déclaration de la voiture a sortir.
+	 */
+	private Voiture voitureASortir;
+	
+	/**
+	 * Déclaration des voitures du jeux.
+	 */
+	private Voiture voitureDuJeu[];	
 	
 	/**
 	 * Créer le plateau de jeu, la voiture à faire sortir et les voitures obstacles.
 	 */
 	public RushHour()
 	{
-		// TODO ne pas confondre variables locales et attributs
-		Plateau plateauDePartie = new Plateau();
-		VoitureS voitureASortir = new VoitureS();
-		plateauDePartie.placerVoitureASortir(voitureASortir);
-		plateauDePartie.miseAJourPlateau();
-		//VoitureJ voitureDeJeu1 = new VoitureJ();
-		//nombreVoitureDansLaPertie++;
+		voitureDuJeu[0]= new Voiture();		
+		if(nombreDeVoitures == 4)
+		{
+			voitureDuJeu[1] = new Voiture(0,0,0,0);
+			voitureDuJeu[2] = new Voiture(0,0,0,0);
+			voitureDuJeu[3] = new Voiture(0,0,0,0);
+			voitureDuJeu[4] = new Voiture(0,0,0,0);
+		}
+		else if(nombreDeVoitures == 5)
+		{
+			voitureDuJeu[1] = new Voiture(0,0,0,0);
+			voitureDuJeu[2] = new Voiture(0,0,0,0);
+			voitureDuJeu[3] = new Voiture(0,0,0,0);
+			voitureDuJeu[4] = new Voiture(0,0,0,0);
+			voitureDuJeu[5] = new Voiture(0,0,0,0);
+		}
+		else if(nombreDeVoitures == 6)
+		{
+			voitureDuJeu[1] = new Voiture(0,0,0,0);
+			voitureDuJeu[2] = new Voiture(0,0,0,0);
+			voitureDuJeu[3] = new Voiture(0,0,0,0);
+			voitureDuJeu[4] = new Voiture(0,0,0,0);
+			voitureDuJeu[5] = new Voiture(0,0,0,0);
+			voitureDuJeu[6] = new Voiture(0,0,0,0);
+		}
+		else if(nombreDeVoitures == 7)
+		{
+			voitureDuJeu[1] = new Voiture(0,0,0,0);
+			voitureDuJeu[2] = new Voiture(0,0,0,0);
+			voitureDuJeu[3] = new Voiture(0,0,0,0);
+			voitureDuJeu[4] = new Voiture(0,0,0,0);
+			voitureDuJeu[5] = new Voiture(0,0,0,0);
+			voitureDuJeu[6] = new Voiture(0,0,0,0);
+			voitureDuJeu[7] = new Voiture(0,0,0,0);
+		}
+		else if(nombreDeVoitures == 8)
+		{
+			voitureDuJeu[1] = new Voiture(0,0,0,0);
+			voitureDuJeu[2] = new Voiture(0,0,0,0);
+			voitureDuJeu[3] = new Voiture(0,0,0,0);
+			voitureDuJeu[4] = new Voiture(0,0,0,0);
+			voitureDuJeu[5] = new Voiture(0,0,0,0);
+			voitureDuJeu[6] = new Voiture(0,0,0,0);
+			voitureDuJeu[7] = new Voiture(0,0,0,0);
+			voitureDuJeu[8] = new Voiture(0,0,0,0);
+		}
+		this.dessinerGrille();
 	}
 	
 	/**
@@ -27,6 +80,13 @@ public class RushHour
 	 */
 	public void jouer()
 	{
-		System.out.println("La partie commence.");
+		//rien pour le moment
+	}
+	
+	public void dessinerGrille()
+	{
+		System.out.println("  _   _   _   _   _   _   _   _   _  ");
+		
+		//System.out.println("| " +  + " | " +  + " | " +  + " | " +  + " | " +  + " | " +  + " | " +  + " | " +  + " | " +  + " |");
 	}
 }
