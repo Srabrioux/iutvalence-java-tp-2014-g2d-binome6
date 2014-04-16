@@ -14,7 +14,7 @@ public class Voiture
 	/**
 	 * Coordonées Y de l'arriere du véhicule sur la grille de jeu.
 	 */
-	private static int pY;
+	private int pY;
 	
 	/**
 	 * Couleur du véhicule (couleur 1, 2 ou 3)
@@ -66,7 +66,7 @@ public class Voiture
 		return pX;
 	}
 	
-	public static int getPY()
+	public int getPY()
 	{
 		return pY;
 	}
